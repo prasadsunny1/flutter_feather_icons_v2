@@ -1,0 +1,6 @@
+# Generated icon file; formatting is applied by tool/build.sh.
+analyzer:
+  exclude:
+    - build/**
+exclude:
+  - lib/flutter_feather_icons_v2.dart

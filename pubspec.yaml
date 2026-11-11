@@ -1,0 +1,20 @@
+name: flutter_feather_icons_v2
+description: Feather icon set rebuilt so each icon is a plain const IconData, for Flutter 3.47+ (IconData is final there). Same names and font as flutter_feather_icons 2.0.0+1.
+version: 2.0.0
+repository: https://github.com/prasadsunny1/flutter_feather_icons_v2
+
+environment:
+  sdk: ^3.13.7
+  flutter: ">=3.47.8"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: FeatherIcons
+      fonts:
+        - asset: fonts/feather.ttf
+dev_dependencies:
+  recase: ^4.1.0
